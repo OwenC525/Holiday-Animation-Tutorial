@@ -1,0 +1,30 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+.mycanvas {
+    background-color: #586c92;
+    height: 450px;
+    width: 400px;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.santa {
+    position: relative;
+    top: 165px;
+    left: 95px;
+}
+.beard {
+    background-color: white;
+    height: 220px;
+    width: 220px;
+    border-radius: 0 50% 50% 50%;
+    transform: rotate(-135deg);
+}
+.face {
+    background-color: #f14a68;
+}
